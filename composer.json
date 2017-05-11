@@ -1,0 +1,34 @@
+{
+  "name": "milu2003/flarum-ext-dxc",
+  "description": "DXC采集 flraum接口",
+  "type": "flarum-extension",
+  "keywords": ["flarum", "crawler", "spider", "采集"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "DXC采集",
+      "email": "452192831@qq.com"
+    }
+  ],
+  "require": {
+    "flarum/core": "^0.1.0-beta.6",
+    "milu2003/flarum-ext-dxc": "@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Milu2003\\DxcApi\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "DXC采集",
+      "icon": {
+
+      }
+    }
+  },
+  "minimum-stability": "dev"
+}

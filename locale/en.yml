@@ -1,0 +1,10 @@
+flarum-ext-dxc:
+    admin:
+        permissions:
+            dxc_api: => flarum-ext-dxc.ref.dxc_api
+        api_key: "密钥"
+        title: "标题"
+
+
+    ref:
+      dxc_api: 'DXC 采集'
